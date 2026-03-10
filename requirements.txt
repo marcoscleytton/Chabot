@@ -1,0 +1,14 @@
+# Bibliotecas principais
+scikit-learn==1.5.0        # Para TF-IDF e similaridade de cosseno
+numpy==1.26.4              # Dependência do scikit-learn
+requests==2.31.0           # Para chamadas HTTP (Google API, servidor)
+google-generativeai==0.3.0 # Cliente oficial da API Gemini
+
+# Interface gráfica
+PyQt5==5.15.9              # Interface desktop com PyQt5
+
+# Servidor web
+Flask==3.0.2               # Alternativa robusta ao http.server (opcional)
+
+# Utilitários
+python-dotenv==1.0.1       # Para gerenciar variáveis de ambiente (.env)
